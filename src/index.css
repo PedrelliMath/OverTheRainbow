@@ -45,4 +45,15 @@ iframe{
   display: none;
 }
 
+@media (max-width: 768px) {
+  .random-word { 
+    font-size: 3rem;
+  }
+  .start-button{
+    font-size: 2rem;
+  }
+}
+
+
+
 
