@@ -1,0 +1,28 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.back-video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+@media(max-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: 100vw;
+  }
+}
+
+.title{
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.game-components {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 3.2em;
+  line-height: 1.1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto opcional */
+  z-index: 1; /* Coloca o texto em um z-index mais alto */
+}
+
+.random-word{
+  padding: 2rem;
+  font-size: 10rem;
+}
+
+.start-button{
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.points{
+  padding-top: 4rem;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #ffffff; /* Cor e largura da borda inferior desejada */
+  background: transparent; /* Torna o input transparente */
+  outline: none; /* Remove a borda padrão do input quando ele está focado */
+  padding: 5px; /* Espaçamento interno para o texto no input */
+  font-size: 16px; /* Tamanho da fonte desejado */
+  color: #fff; /* Cor do texto */
+}
+
+iframe{
+  display: none;
+}
+
+
